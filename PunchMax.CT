@@ -122,18 +122,18 @@ db F3 0F 5C D6 F3 0F 11 53 78
                   <Address>player_defense_multiplier</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>60</ID>
+                  <ID>74</ID>
                   <Description>"Vida"</Description>
                   <VariableType>Float</VariableType>
-                  <Address>"GameAssembly.dll"+02AF4A88</Address>
+                  <Address>"GameAssembly.dll"+02D03F60</Address>
                   <Offsets>
                     <Offset>78</Offset>
                     <Offset>30</Offset>
-                    <Offset>78</Offset>
-                    <Offset>78</Offset>
-                    <Offset>B0</Offset>
+                    <Offset>50</Offset>
+                    <Offset>D0</Offset>
                     <Offset>138</Offset>
                     <Offset>B8</Offset>
+                    <Offset>78</Offset>
                   </Offsets>
                 </CheatEntry>
               </CheatEntries>
@@ -280,215 +280,6 @@ dealloc(save_rsi)
           <Color>808080</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
-            <CheatEntry>
-              <ID>61</ID>
-              <Description>"health pointer"</Description>
-              <VariableType>Float</VariableType>
-              <Address>"GameAssembly.dll"+02AF4A88</Address>
-              <Offsets>
-                <Offset>78</Offset>
-                <Offset>30</Offset>
-                <Offset>88</Offset>
-                <Offset>70</Offset>
-                <Offset>D0</Offset>
-                <Offset>138</Offset>
-                <Offset>B8</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>62</ID>
-              <Description>"health pointer"</Description>
-              <VariableType>Float</VariableType>
-              <Address>"GameAssembly.dll"+02AF4A88</Address>
-              <Offsets>
-                <Offset>78</Offset>
-                <Offset>30</Offset>
-                <Offset>D0</Offset>
-                <Offset>138</Offset>
-                <Offset>B8</Offset>
-                <Offset>40</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>63</ID>
-              <Description>"health pointer"</Description>
-              <VariableType>Float</VariableType>
-              <Address>"GameAssembly.dll"+02AF4A88</Address>
-              <Offsets>
-                <Offset>78</Offset>
-                <Offset>30</Offset>
-                <Offset>D0</Offset>
-                <Offset>138</Offset>
-                <Offset>B8</Offset>
-                <Offset>238</Offset>
-                <Offset>98</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>64</ID>
-              <Description>"health pointer"</Description>
-              <VariableType>Float</VariableType>
-              <Address>"GameAssembly.dll"+02AF4A88</Address>
-              <Offsets>
-                <Offset>78</Offset>
-                <Offset>30</Offset>
-                <Offset>D0</Offset>
-                <Offset>138</Offset>
-                <Offset>B8</Offset>
-                <Offset>30</Offset>
-                <Offset>80</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>65</ID>
-              <Description>"health pointer"</Description>
-              <VariableType>Float</VariableType>
-              <Address>"GameAssembly.dll"+02AF4A88</Address>
-              <Offsets>
-                <Offset>78</Offset>
-                <Offset>30</Offset>
-                <Offset>D0</Offset>
-                <Offset>138</Offset>
-                <Offset>B8</Offset>
-                <Offset>80</Offset>
-                <Offset>C8</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>66</ID>
-              <Description>"health pointer"</Description>
-              <VariableType>Float</VariableType>
-              <Address>"GameAssembly.dll"+02AF4A88</Address>
-              <Offsets>
-                <Offset>78</Offset>
-                <Offset>30</Offset>
-                <Offset>D0</Offset>
-                <Offset>138</Offset>
-                <Offset>B8</Offset>
-                <Offset>290</Offset>
-                <Offset>98</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>67</ID>
-              <Description>"health pointer"</Description>
-              <VariableType>Float</VariableType>
-              <Address>"GameAssembly.dll"+02AF4A88</Address>
-              <Offsets>
-                <Offset>78</Offset>
-                <Offset>30</Offset>
-                <Offset>D0</Offset>
-                <Offset>138</Offset>
-                <Offset>B8</Offset>
-                <Offset>F0</Offset>
-                <Offset>80</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>68</ID>
-              <Description>"health pointer"</Description>
-              <VariableType>Float</VariableType>
-              <Address>"GameAssembly.dll"+02AF4A88</Address>
-              <Offsets>
-                <Offset>78</Offset>
-                <Offset>30</Offset>
-                <Offset>D0</Offset>
-                <Offset>138</Offset>
-                <Offset>B8</Offset>
-                <Offset>150</Offset>
-                <Offset>80</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>69</ID>
-              <Description>"health pointer"</Description>
-              <VariableType>Float</VariableType>
-              <Address>"GameAssembly.dll"+02AF4A88</Address>
-              <Offsets>
-                <Offset>78</Offset>
-                <Offset>30</Offset>
-                <Offset>D0</Offset>
-                <Offset>138</Offset>
-                <Offset>B8</Offset>
-                <Offset>1A0</Offset>
-                <Offset>C8</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>70</ID>
-              <Description>"health pointer"</Description>
-              <VariableType>Float</VariableType>
-              <Address>"GameAssembly.dll"+02AF4A88</Address>
-              <Offsets>
-                <Offset>78</Offset>
-                <Offset>30</Offset>
-                <Offset>D0</Offset>
-                <Offset>138</Offset>
-                <Offset>B8</Offset>
-                <Offset>240</Offset>
-                <Offset>C8</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>71</ID>
-              <Description>"health pointer"</Description>
-              <VariableType>Float</VariableType>
-              <Address>"GameAssembly.dll"+02AF4A88</Address>
-              <Offsets>
-                <Offset>78</Offset>
-                <Offset>30</Offset>
-                <Offset>D0</Offset>
-                <Offset>138</Offset>
-                <Offset>B8</Offset>
-                <Offset>210</Offset>
-                <Offset>80</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>72</ID>
-              <Description>"health pointer"</Description>
-              <VariableType>Float</VariableType>
-              <Address>"GameAssembly.dll"+02AF4A88</Address>
-              <Offsets>
-                <Offset>78</Offset>
-                <Offset>30</Offset>
-                <Offset>D0</Offset>
-                <Offset>138</Offset>
-                <Offset>B8</Offset>
-                <Offset>260</Offset>
-                <Offset>C8</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>73</ID>
-              <Description>"health pointer"</Description>
-              <VariableType>Float</VariableType>
-              <Address>"GameAssembly.dll"+02AF4A88</Address>
-              <Offsets>
-                <Offset>78</Offset>
-                <Offset>30</Offset>
-                <Offset>D0</Offset>
-                <Offset>138</Offset>
-                <Offset>B8</Offset>
-                <Offset>290</Offset>
-                <Offset>80</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>74</ID>
-              <Description>"health pointer"</Description>
-              <VariableType>Float</VariableType>
-              <Address>"GameAssembly.dll"+02D03F60</Address>
-              <Offsets>
-                <Offset>78</Offset>
-                <Offset>30</Offset>
-                <Offset>50</Offset>
-                <Offset>D0</Offset>
-                <Offset>138</Offset>
-                <Offset>B8</Offset>
-                <Offset>78</Offset>
-              </Offsets>
-            </CheatEntry>
             <CheatEntry>
               <ID>75</ID>
               <Description>"health pointer"</Description>
@@ -2191,6 +1982,1077 @@ db F3 0F 59 41 10
 //mulss xmm0,[rcx+10]
 </AssemblerScript>
     </CheatEntry>
+    <CheatEntry>
+      <ID>214</ID>
+      <Description>"No Description"</Description>
+      <VariableType>Float</VariableType>
+      <Address>185608000C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>215</ID>
+      <Description>"No Description"</Description>
+      <VariableType>Float</VariableType>
+      <Address>185608000C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>216</ID>
+      <Description>"Auto Assemble script"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"UnityPlayer.dll"+FF796)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+
+alloc(factor_velocidad,4,"GameAssembly.dll"+FF796)
+factor_velocidad:
+dd (float)0.0
+
+alloc(reserva1,4,"GameAssembly.dll"+FF796)
+alloc(reserva2,4,"GameAssembly.dll"+FF796)
+alloc(reserva3,4,"GameAssembly.dll"+FF796)
+
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+// Suponemos que xmm2 contiene la nueva posición
+// y [rdx] contiene la posición anterior
+
+cmp rax, 0
+je originalcode
+
+movups [reserva1], xmm1
+//movups [reserva2], xmm2
+movups [reserva3], xmm3
+
+movups xmm1, [rdx]
+movups xmm3, xmm2
+subps xmm3, xmm1
+
+movups [rdx], xmm2         // Guardar la nueva posición en la dirección contenida en rdx
+
+movups xmm1, [reserva1]
+//movups xmm2, [reserva2]
+movups xmm3, [reserva3]
+
+test al,07
+jmp exit
+
+originalcode:
+movups [rdx],xmm2
+test al,07
+
+exit:
+jmp returnhere
+
+"UnityPlayer.dll"+FF796:
+jmp newmem
+returnhere:
+
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+dealloc(factor_velocidad)
+dealloc(reserva1)
+dealloc(reserva2)
+dealloc(reserva3)
+"UnityPlayer.dll"+FF796:
+db 0F 11 12 A8 07
+//movups [rdx],xmm2
+//test al,07
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>217</ID>
+      <Description>"No Description"</Description>
+      <VariableType>Float</VariableType>
+      <Address>1EBD08000C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>218</ID>
+      <Description>"No Description"</Description>
+      <VariableType>Float</VariableType>
+      <Address>2E0E08000C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>219</ID>
+      <Description>"Congelar enemigos"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"UnityPlayer.dll"+8757C3) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+/*
+alloc(direccion_posicion,4,"UnityPlayer.dll"+8757C3)
+direccion_posicion:
+dq 214E08000C0
+*/
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+/*
+push rax
+
+mov rax, rdx
+add rax, rax
+add rax, rax
+add rax, rax
+add rax, rcx
+
+//cmp [rcx+rdx*8], rax
+cmp rax, [direccion_posicion]
+
+je originalcode
+*/
+
+//mov [rcx+rdx*8],0
+cmp r8, 1
+jmp exit
+
+originalcode:
+movups [rcx+rdx*8],xmm8
+
+exit:
+//pop rax
+jmp returnhere
+
+"UnityPlayer.dll"+8757C3:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+//dealloc(direccion_posicion)
+"UnityPlayer.dll"+8757C3:
+db 44 0F 11 04 D1
+//movups [rcx+rdx*8],xmm8
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>220</ID>
+      <Description>"No Description"</Description>
+      <VariableType>Float</VariableType>
+      <Address>207E08000C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>260</ID>
+      <Description>"Group 8"</Description>
+      <GroupHeader>1</GroupHeader>
+      <Address>0</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>233</ID>
+          <Description>"No description"</Description>
+          <VariableType>Float</VariableType>
+          <Address>207E08000C8</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>261</ID>
+      <Description>"pos1"</Description>
+      <VariableType>Float</VariableType>
+      <Address>207E08000C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>262</ID>
+      <Description>"pos2"</Description>
+      <VariableType>Float</VariableType>
+      <Address>2C7508000C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>264</ID>
+      <Description>"pos3"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>242D08000C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>265</ID>
+      <Description>"pos4"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>222E08000C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>263</ID>
+      <Description>"pointerscan result"</Description>
+      <VariableType>Float</VariableType>
+      <Address>"UnityPlayer.dll"+01B328E0</Address>
+      <Offsets>
+        <Offset>90</Offset>
+        <Offset>38</Offset>
+        <Offset>A8</Offset>
+        <Offset>980</Offset>
+        <Offset>30</Offset>
+        <Offset>1C0</Offset>
+        <Offset>8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>266</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>227E0C000C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>267</ID>
+      <Description>"Auto Assemble script"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"UnityPlayer.dll"+FF796) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+//movups [rdx],xmm2
+test al,07
+
+exit:
+jmp returnhere
+
+"UnityPlayer.dll"+FF796:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"UnityPlayer.dll"+FF796:
+db 0F 11 12 A8 07
+//movups [rdx],xmm2
+//test al,07
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>268</ID>
+      <Description>"No description"</Description>
+      <VariableType>Float</VariableType>
+      <Address>181DF4DA200</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>269</ID>
+      <Description>"Velocidad"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"GameAssembly.dll"+3C4F9C) 
+label(returnhere)
+label(exit)
+
+alloc(speed_factor,8,"GameAssembly.dll"+3C4F9C)
+registersymbol(speed_factor)
+speed_factor:
+dq (float)3.5
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+
+push rax
+movq rax, xmm0
+movss xmm7,[rdi+000000A0]
+movss xmm0, [speed_factor]
+mulss xmm7, xmm0
+movq xmm0, rax
+pop rax
+
+/*
+movss xmm7,[rdi+000000A0]
+addss xmm7, [speed_factor]
+*/
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+3C4F9C:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+unregistersymbol(speed_factor)
+dealloc(speed_factor)
+"GameAssembly.dll"+3C4F9C:
+db F3 0F 10 BF A0 00 00 00
+//movss xmm7,[rdi+000000A0]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>270</ID>
+      <Description>"Velocidad2"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"GameAssembly.dll"+3C671E) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+alloc(speed_factor2,8,"GameAssembly.dll"+3C671E)
+registersymbol(speed_factor2)
+speed_factor2:
+dq (float)3.5
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+
+push rax
+movq rax, xmm1
+movss xmm0,[rdi+000000A0]
+movss xmm1, [speed_factor2]
+mulss xmm0, xmm1
+movq xmm1, rax
+pop rax
+
+
+originalcode:
+/*movss xmm0,[rdi+000000A0]
+addss xmm0, [speed_factor2]*/
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+3C671E:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+unregistersymbol(speed_factor2)
+dealloc(speed_factor2)
+"GameAssembly.dll"+3C671E:
+db F3 0F 10 87 A0 00 00 00
+//movss xmm0,[rdi+000000A0]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>271</ID>
+      <Description>"Velocidad3"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"GameAssembly.dll"+3C671E) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+
+alloc(speed_factor3,8,"GameAssembly.dll"+3C671E)
+registersymbol(speed_factor3)
+speed_factor3:
+dq (float)3.5
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+
+push rax
+movq rax, xmm1
+movss xmm0,[rdi+000000A0]
+movss xmm1, [speed_factor3]
+mulss xmm0, xmm1
+movq xmm1, rax
+pop rax
+
+originalcode:
+
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+3C671E:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+unregistersymbol(speed_factor3)
+dealloc(speed_factor3)
+"GameAssembly.dll"+3C671E:
+db F3 0F 10 87 A0 00 00 00
+//movss xmm0,[rdi+000000A0]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>272</ID>
+      <Description>"No Description"</Description>
+      <VariableType>Float</VariableType>
+      <Address>23E5BBBF200</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>274</ID>
+      <Description>"Animacion correr"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"GameAssembly.dll"+3C66DF) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+alloc(speed_factor4,4,"GameAssembly.dll"+3C66DF)
+registersymbol(speed_factor4)
+speed_factor4:
+dd (float)3.0
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+
+push rax
+movq rax, xmm0
+movss xmm0, [speed_factor4]
+mulss xmm6, xmm0
+movq xmm0, rax
+pop rax
+
+originalcode:
+movss [rdi+000000A0],xmm6
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+3C66DF:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+unregistersymbol(speed_factor4)
+dealloc(speed_factor4)
+"GameAssembly.dll"+3C66DF:
+db F3 0F 11 B7 A0 00 00 00
+//movss [rdi+000000A0],xmm6
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>275</ID>
+      <Description>"velcccc"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>23E5BBBF1F8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>276</ID>
+      <Description>"velocidad fuera de pelea"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"GameAssembly.dll"+3C64B0) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+alloc(speed_factor5,4,"GameAssembly.dll"+3C64B0)
+registersymbol(speed_factor5)
+speed_factor5:
+dd (float)8.0
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+
+push rax
+movq rax, xmm0
+movss xmm0, [speed_factor5]
+mulss xmm1, xmm0
+movq xmm0, rax
+pop rax
+
+originalcode:
+movss [rcx+00000098],xmm1
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+3C64B0:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+unregistersymbol(speed_factor5)
+dealloc(speed_factor5)
+"GameAssembly.dll"+3C64B0:
+db F3 0F 11 89 98 00 00 00
+//movss [rcx+00000098],xmm1
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>277</ID>
+      <Description>"Auto Assemble script"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"GameAssembly.dll"+3C6832) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+alloc(speed_factor5,8,"GameAssembly.dll"+3C6832)
+registersymbol(speed_factor5)
+speed_factor5:
+dq (float)8.5
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+push rbx
+
+cvtsi2ss xmm0, ebx
+movss xmm1, [speed_factor5]
+mulss xmm0, xmm1
+cvtss2si ebx, xmm0
+
+pop rbx
+
+originalcode:
+mov [rdi+00000098],ebx
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+3C6832:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+unregistersymbol(speed_factor5)
+dealloc(speed_factor5)
+"GameAssembly.dll"+3C6832:
+db 89 9F 98 00 00 00
+//mov [rdi+00000098],ebx
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>278</ID>
+      <Description>"No description"</Description>
+      <VariableType>Float</VariableType>
+      <Address>23C90F927C8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>279</ID>
+      <Description>"No description"</Description>
+      <VariableType>Float</VariableType>
+      <Address>23C90E60244</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>280</ID>
+      <Description>"No description"</Description>
+      <VariableType>Float</VariableType>
+      <Address>23C90E5F01C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>281</ID>
+      <Description>"Auto Assemble script"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"UnityPlayer.dll"+6125AC) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+alloc(speed_factor6,4,"UnityPlayer.dll"+6125AC)
+registersymbol(speed_factor6)
+speed_factor6:
+dd (float)8.0
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+
+push rax
+movq rax, xmm0
+movss xmm0, [speed_factor6]
+mulss xmm2, xmm0
+movq xmm0, rax
+pop rax
+
+originalcode:
+movss [rax+rcx*8+08],xmm2
+
+exit:
+jmp returnhere
+
+"UnityPlayer.dll"+6125AC:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+unregistersymbol(speed_factor6)
+dealloc(speed_factor6)
+"UnityPlayer.dll"+6125AC:
+db F3 0F 11 54 C8 08
+//movss [rax+rcx*8+08],xmm2
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>282</ID>
+      <Description>"vel1"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"GameAssembly.dll"+1B7404A) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+//movss [rsi+1C],xmm0
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+1B7404A:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"GameAssembly.dll"+1B7404A:
+db F3 0F 11 46 1C
+//movss [rsi+1C],xmm0
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>283</ID>
+      <Description>"vel2"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"GameAssembly.dll"+1B6FC6C) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+//movups [rbx+10],xmm1
+movups [rbx+20],xmm0
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+1B6FC6C:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"GameAssembly.dll"+1B6FC6C:
+db 0F 11 4B 10 0F 11 43 20
+//movups [rbx+10],xmm1
+//movups [rbx+20],xmm0
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>284</ID>
+      <Description>"vel3"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"GameAssembly.dll"+1B73FE2) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+//movss [rsi+1C],xmm2
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+1B73FE2:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"GameAssembly.dll"+1B73FE2:
+db F3 0F 11 56 1C
+//movss [rsi+1C],xmm2
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>286</ID>
+      <Description>"Auto Assemble script"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"GameAssembly.dll"+1B75540) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+//movss [rcx+rax*4],xmm0
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+1B75540:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"GameAssembly.dll"+1B75540:
+db F3 0F 11 04 81
+//movss [rcx+rax*4],xmm0
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>287</ID>
+      <Description>"Velocidad -Y"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>14090E60118</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>288</ID>
+      <Description>"Velocidad +Y"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>14090E6011C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>289</ID>
+      <Description>"Velocidad +X"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>14090E600FC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>290</ID>
+      <Description>"Velocidad -X"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>14090E600F8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>291</ID>
+      <Description>"Auto Assemble script"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"GameAssembly.dll"+1B7539E) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+//movss [rcx+rsi*4],xmm0
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+1B7539E:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"GameAssembly.dll"+1B7539E:
+db F3 0F 11 04 B1
+//movss [rcx+rsi*4],xmm0
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>292</ID>
+      <Description>"vel?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>14090E60214</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>293</ID>
+      <Description>"No description"</Description>
+      <VariableType>Float</VariableType>
+      <Address>1423167E760</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>294</ID>
+      <Description>"Auto Assemble script"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"GameAssembly.dll"+3C6649) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+alloc(speed_factor10,4,"GameAssembly.dll"+3C6649)
+registersymbol(speed_factor10)
+speed_factor10:
+dd (float)8.0
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+push rax
+
+movq rax, xmm1
+movss xmm1, [speed_factor10]
+mulss xmm0, xmm1
+//mulss xmm6, xmm1
+movq xmm1, rax
+
+pop rax
+
+originalcode:
+//movss [rcx],xmm6    // velocidad X
+movss [rcx+04],xmm0 // velocidad Y
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+3C6649:
+jmp newmem
+nop 4
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+unregistersymbol(speed_factor10)
+dealloc(speed_factor10)
+"GameAssembly.dll"+3C6649:
+db F3 0F 11 31 F3 0F 11 41 04
+//movss [rcx],xmm6
+//movss [rcx+04],xmm0
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>295</ID>
+      <Description>"No description"</Description>
+      <VariableType>Float</VariableType>
+      <Address>142575FF200</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>296</ID>
+      <Description>"Aumentar velocidad"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"GameAssembly.dll"+3C66DF) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+alloc(speed_factor11,4,"GameAssembly.dll"+3C66DF)
+registersymbol(speed_factor11)
+speed_factor11:
+dd (float)4.0
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+push rax
+
+movq rax, xmm1
+movss xmm1, [speed_factor11]
+mulss xmm6, xmm1
+
+movq xmm1, rax
+
+pop rax
+
+originalcode:
+movss [rdi+000000A0],xmm6
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+3C66DF:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+unregistersymbol(speed_factor11)
+dealloc(speed_factor11)
+"GameAssembly.dll"+3C66DF:
+db F3 0F 11 B7 A0 00 00 00
+//movss [rdi+000000A0],xmm6
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>297</ID>
+      <Description>"Quitar limite velocidad 1"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"GameAssembly.dll"+3C4FA4) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+//minss xmm7,[GameAssembly.dll+22E2BB8]
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+3C4FA4:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"GameAssembly.dll"+3C4FA4:
+db F3 0F 5D 3D 0C DC F1 01
+//minss xmm7,[GameAssembly.dll+22E2BB8]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>298</ID>
+      <Description>"Quitar limite velocidad 2"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"GameAssembly.dll"+3C4FAC) 
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+//minss xmm7,[GameAssembly.dll+22E2BB8]
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+3C4FAC:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"GameAssembly.dll"+3C4FAC:
+db F3 0F 5D 3D 04 DC F1 01
+//minss xmm7,[GameAssembly.dll+22E2BB8]
+</AssemblerScript>
+    </CheatEntry>
   </CheatEntries>
   <CheatCodes>
     <CodeEntry>
@@ -2533,6 +3395,154 @@ db F3 0F 59 41 10
         <Byte>2B</Byte>
       </After>
     </CodeEntry>
+    <CodeEntry>
+      <Description>SLOT4 :mov [rbx+20],rax</Description>
+      <AddressString>GameAssembly.dll+53B4DD</AddressString>
+      <Before>
+        <Byte>33</Byte>
+        <Byte>D2</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>CB</Byte>
+      </Before>
+      <Actual>
+        <Byte>48</Byte>
+        <Byte>89</Byte>
+        <Byte>43</Byte>
+        <Byte>20</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>5C</Byte>
+        <Byte>24</Byte>
+        <Byte>40</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>SLOT4B :mov [rbx+0000008C],r14d</Description>
+      <AddressString>GameAssembly.dll+53B415</AddressString>
+      <Before>
+        <Byte>BB</Byte>
+        <Byte>80</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>44</Byte>
+        <Byte>89</Byte>
+        <Byte>B3</Byte>
+        <Byte>8C</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>0D</Byte>
+        <Byte>3D</Byte>
+        <Byte>E2</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>possss :movups [rdx],xmm2</Description>
+      <AddressString>UnityPlayer.dll+FF796</AddressString>
+      <Before>
+        <Byte>C2</Byte>
+        <Byte>04</Byte>
+        <Byte>0F</Byte>
+        <Byte>50</Byte>
+        <Byte>C0</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>12</Byte>
+      </Actual>
+      <After>
+        <Byte>A8</Byte>
+        <Byte>07</Byte>
+        <Byte>0F</Byte>
+        <Byte>84</Byte>
+        <Byte>8E</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>vel1 :movss [rsi+1C],xmm0</Description>
+      <AddressString>GameAssembly.dll+1B7404A</AddressString>
+      <Before>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>10</Byte>
+        <Byte>43</Byte>
+        <Byte>1C</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>46</Byte>
+        <Byte>1C</Byte>
+      </Actual>
+      <After>
+        <Byte>80</Byte>
+        <Byte>4E</Byte>
+        <Byte>01</Byte>
+        <Byte>01</Byte>
+        <Byte>32</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>vel2 :movups [rbx+10],xmm1</Description>
+      <AddressString>GameAssembly.dll+1B6FC6C</AddressString>
+      <Before>
+        <Byte>03</Byte>
+        <Byte>0F</Byte>
+        <Byte>10</Byte>
+        <Byte>45</Byte>
+        <Byte>F0</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>4B</Byte>
+        <Byte>10</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>43</Byte>
+        <Byte>20</Byte>
+        <Byte>4D</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>vel3 :movss [rsi+1C],xmm2</Description>
+      <AddressString>GameAssembly.dll+1B73FE2</AddressString>
+      <Before>
+        <Byte>11</Byte>
+        <Byte>76</Byte>
+        <Byte>1C</Byte>
+        <Byte>EB</Byte>
+        <Byte>6D</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>56</Byte>
+        <Byte>1C</Byte>
+      </Actual>
+      <After>
+        <Byte>EB</Byte>
+        <Byte>66</Byte>
+        <Byte>0F</Byte>
+        <Byte>57</Byte>
+        <Byte>C0</Byte>
+      </After>
+    </CodeEntry>
   </CheatCodes>
   <UserdefinedSymbols/>
   <Comments>RBX     jugador  enemigos
@@ -2555,6 +3565,16 @@ fe8       1         0
     <DisassemblerComment>
       <Address>"GameAssembly.dll"+4E56C6</Address>
       <Comment>Resta el daño a la vida
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"GameAssembly.dll"+4E5D3E</Address>
+      <Comment>incia vida??
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"GameAssembly.dll"+4E5E07</Address>
+      <Comment>inicia vida al principio de partida y al coger booster
 </Comment>
     </DisassemblerComment>
   </DisassemblerComments>
