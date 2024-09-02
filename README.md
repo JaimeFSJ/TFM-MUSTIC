@@ -24,7 +24,7 @@ El trabajo se divide en dos archivos:
 | Tabla de trucos  | Trainer  |
 |----------------------|--------------|
 |  4. Ejecute Cheat Engine. |  4. Ejecute el programa del trainer. |
-|  5. Asigne el proceso del juego a CHeat Engine. |  |
+|  5. Asigne el proceso del juego a Cheat Engine. |  |
 |  6. Cargue la tabla de trucos. |   |
 
 
